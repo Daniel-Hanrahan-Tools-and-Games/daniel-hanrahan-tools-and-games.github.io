@@ -33,6 +33,52 @@
 </ol>
 <p>If you would like more information on tyranny, check out these videos from Philosophical Gamer:https://youtu.be/iPSnmtMBYlg?si=Q6XZBnNHvVsU2kaC, https://youtu.be/iPSnmtMBYlg?si=l0OZuiWC2Gq-VSEo</p>
 
+<h2>Resources for tuning and optimizing software tools or video games for your own experience if neccessary</h2>
+<h3>The reason I am putting this list on here is because I see companies not tuning their software products specifically AI companies are the most famous for this issue and people not tuning their own software if possible and a lot of those entities do not even know that you can do this.</h3>
+<h4>Things to know</h4>
+<ol>
+<li>Only use your processing units assembly if you need to use non standard parts/elements of the processing units or if you need to create a programming language that fits your criteria.</li>
+<li>This is the query you need first for finding the right language.</li>
+<ol>
+<li>License = MIT or Apache</li>
+<li>Governance = Foundation/Community</li>
+<li>Age > 10 years</li>
+<li>Compiler Backend = LLVM or GCC</li>
+<li>isStandardized = True</li>
+<li>implementationCount > 1</li>
+<li>Supports External Linking = True</li>
+</ol>
+<li>Sometimes you cant find the language you want with this query so I am going to tell you what happens if you change any of this criteria, and if there is no language that meets your criteria I reccommend you create your own language and its up to you if you want to change criteria from above.</li>
+<ol>
+<li>License = Proprietary or Restrictive</li>
+     <p>The creator of the language can demand royalties after specific criteria has been met and it can change the terms of using the language on you.</p>
+<li>Governance = Corporate Owned</li>
+     <p>The creator of the language can decide to kill features of the language that devs rely on to further their own agenda.</p>
+<li>Age < 5</li>
+     <p>The language might not be stable enough for devs to make a long-term project out of it yet, so there is a high chance you may have to rewrite it to fit a new version.</p>
+<li>Compiler Backend = Custom/Proprietary</li>
+     <p>Harder to port languages to new hardware.</p>
+<li>isStandardized = false</li>
+     <p>Changes to the language can be made willy nilly and that can cause your code to not work.</p>
+<li>implementationCount = 1</li>
+     <p>If the language can not do what you want it to do like specific performance on your hardware or you dont want it to have specific bugs you cannot go to another compiler.</p>
+<li>Supports External Linking = False</li>
+     <p>You would have a bit of a bloat problem also you cannot care of compiler limitations or cannot talk to the bare metal with that language.</p>
+</ol>
+<li>When to use specific programming language communicators for a single app, when using 2 different programming languages</li>
+<ul>
+<li>Shared Runtime</li>
+     <p>You use it if 2 or more languages use the same process virtual machine, uses vm</p>
+<li>Foriegn Function Interface</li>
+     <p>You use it when you want to use another language to communicate with a C compatible language, uses RAM.</p>
+<li>WebAssembly Component Model</li>
+     <p>You use to ensure portability of the application, I.E. ensure it runs on more than one type of hardware, uses a sandbox</p>
+<li>Inter-Process Communication</li>
+     <p>You use it for isolating your app from the OS and prevent the app from affecting the OS, uses functions of the OS</p>
+</ul>
+<li>Now you can search for the programming language you need and for what task, you can search for many criteria, Paradigm, Type, Use, Features, How it works under the hood, those were all the technical reasons, etc</li>
+<li>Link to Programming Language Database: https://github.com/Daniel-Hanrahan-Tools-and-Games/pldb</li>
+</ol>
 
 <p>Miscellaneous Pages for this site</p>
 <ul>
