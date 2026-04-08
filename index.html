@@ -58,7 +58,7 @@
 <h3>The reason I am putting this list on here is because I see companies not tuning their software products specifically AI companies are the most famous for this issue and people not tuning their own software if possible and a lot of those entities do not even know that you can do this.</h3>
 <h4>Things to know</h4>
 <ol>
-<li>Only use your processing units assembly if you need to use non standard parts/elements of the processing units or if you need to create a programming language that fits your criteria.</li>
+<li>Only use your processing units assembly or machine dependent bitwise operators if you need to use non standard parts/elements of the processing units or if you need to create a programming language that fits your criteria.</li>
 <li>This is the query you need first for finding the right language.</li>
 <ol>
 <li>License = MIT or Apache</li>
@@ -99,6 +99,17 @@
 </ul>
 <li>Now you can search for the programming language you need and for what task, you can search for many criteria, Paradigm, Type, Use, Features, How it works under the hood, those were all the technical reasons, etc</li>
 <li>Link to Programming Language Database: https://github.com/Daniel-Hanrahan-Tools-and-Games/pldb</li>
+<li>When using bitwise operators folllow these rules to be machine independent.</li>
+     <ol>
+          <li>Use fixed width types.</li>
+          <li>Always use unsigned integers.</li>
+          <li>Use a bitmask to clip the result to the desired range if using unknown sizes.</li>
+          <li>Avoid pointer casting.</li>
+          <li>Use serialization functions when sending data over a network.</li>
+          <li>always define your constants.</li>
+     </ol>
+<li>Now you know how to keep bitwise operators machine dependent.</li>
+<li>Link to Bitwise Calculator: https://github.com/Daniel-Hanrahan-Tools-and-Games/BitwiseCmd</li>
 </ol>
 
 <p>Miscellaneous Pages for this site</p>
