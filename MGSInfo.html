@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+  <h1>How to have games communicate with each other using multi game system where you can control everything and situation.</h1>
+  <h2>This page is under the BSD-3-CLAUSE and everything on this page that the BSD-3-CLAUSE does not cover is under this license: This work is licensed under Attribution 4.0 International.</h2>
+  <p>Link to main page and repository</p>
+  <ul>
+      <li><a href="https://daniel-hanrahan-tools-and-games.github.io/">Main Page</a></li>
+      <li><a href="https://github.com/Daniel-Hanrahan-Tools-and-Games/daniel-hanrahan-tools-and-games.github.io">Page Repository (The page is in The_Soda_Index folder)</a></li>
+  </ul>
+  <h3>We would be using a universal game state system and here is how it works.</h3>
+  <p>You will have to add hooks to your or open source games or emulators(or add the hooks in settings for specific games in the emulator).</p>
+  <ol>
+    <li>Game Or Emulator Detects Trigger Event</li>
+    <ul>
+      <li>Open source or your emulators watch memory addresses.</li>
+      <li>Native games(your own games, recomps and open source games) use source code hooks at event locations.</li>
+    </ul>
+    <li>Hook Writes Binary State File</li>
+    <ul>
+      <li>First few bytes are things related to game ID.</li>
+      <li>The next few bytes are things related to game levels/areas</li>
+    </ul>
+    <li>Game Process Exits</li>
+    <ul>
+      <li>Emulator or native game terminates.</li>
+    </ul>
+    <li>Game Wrapper Detects Exit And Checks For Transition</li>
+    <ul>
+      <li>Wrapper checks if binary file exists.</li>
+      <li>If yes: <ol>
+        <li>Read and parse the file.</li>
+        <li>Launch next game.</li>
+        <li>Delete the binary file.</li>
+      </ol>
+      </li>
+      <li>If no: Do nothing.</li>
+    </ul>
+    <li>Next Game Loads At Specific State</li>
+    <ul>
+      <li>Emulators load the game at specific memory addresses.</li>
+      <li>Launcher tells native games to load at specific areas.</li>
+    </ul>
+    <li>Cycle Repeats</li>
+  </ol>
+</body>
+<footer>
+<p>Copyright (C) 2026 Daniel Hanrahan Tools and Games</p>
+</footer>
+</html>
