@@ -1,0 +1,2394 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.22.0" title="Shotcut version 24.04.01" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="25" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:59.960">
+    <property name="length">00:05:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:59.960"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123913.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3989</property>
+    <property name="meta.media.height">2995</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2d55e1a978b152b92a0a82fb9b98b412</property>
+    <property name="shotcut:caption">20260803_123913.jpg</property>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123710.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3572</property>
+    <property name="meta.media.height">2851</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">12debd31668eb46236a703e1fdd6debe</property>
+    <property name="shotcut:caption">20260803_123710.jpg</property>
+  </producer>
+  <producer id="producer2" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123840.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3734</property>
+    <property name="meta.media.height">2973</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9e7d51ec310b61c63a4116505560574e</property>
+    <property name="shotcut:caption">20260803_123840.jpg</property>
+  </producer>
+  <producer id="producer3" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123819.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3716</property>
+    <property name="meta.media.height">2910</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9e0a4725cd5ac32daf1623c5de708ba7</property>
+    <property name="shotcut:caption">20260803_123819.jpg</property>
+  </producer>
+  <producer id="producer4" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123742.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3823</property>
+    <property name="meta.media.height">3060</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">d5d96cfe2564ddcfc868f86db55d1acf</property>
+    <property name="shotcut:caption">20260803_123742.jpg</property>
+  </producer>
+  <producer id="producer5" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123840.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3734</property>
+    <property name="meta.media.height">2973</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9e7d51ec310b61c63a4116505560574e</property>
+    <property name="shotcut:caption">20260803_123840.jpg</property>
+  </producer>
+  <producer id="producer6" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123831.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3814</property>
+    <property name="meta.media.height">3009</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">76aa4a20f79c764691bf0b4e134c6f15</property>
+    <property name="shotcut:caption">20260803_123831.jpg</property>
+  </producer>
+  <producer id="producer7" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/backgrounds/20260803_123633.jpg</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3557</property>
+    <property name="meta.media.height">2779</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">ce6c400e35f50875d3e3388d40e1f101</property>
+    <property name="shotcut:caption">20260803_123633.jpg</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:00:24.960"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:00:34.960"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:00:19.960"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:00:19.960"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:54.960"/>
+    <entry producer="producer5" in="00:00:00.000" out="00:00:19.960"/>
+    <entry producer="producer6" in="00:00:00.000" out="00:01:29.960"/>
+    <entry producer="producer7" in="00:00:00.000" out="00:00:34.960"/>
+  </playlist>
+  <chain id="chain0" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain1" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain4" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain5" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain6" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain7" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain8" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain9" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain10" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain11" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain12" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain13" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain14" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain15" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain16" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain17" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain18" out="00:00:16.000">
+    <property name="length">00:00:16.040</property>
+    <property name="eof">pause</property>
+    <property name="resource">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="meta.media.nb_streams">1</property>
+    <property name="meta.media.0.stream.type">audio</property>
+    <property name="meta.media.0.codec.sample_fmt">fltp</property>
+    <property name="meta.media.0.codec.sample_rate">48000</property>
+    <property name="meta.media.0.codec.channels">2</property>
+    <property name="meta.media.0.codec.name">mp3float</property>
+    <property name="meta.media.0.codec.long_name">MP3 (MPEG audio layer 3)</property>
+    <property name="meta.media.0.codec.bit_rate">256000</property>
+    <property name="meta.attr.title.markup">Distant_Lands_Adventure_OST</property>
+    <property name="meta.attr.artist.markup">Daniel Hanrahan Tools And Game</property>
+    <property name="meta.attr.date.markup">2026</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="creation_time">2026-08-04T22:44:23</property>
+    <property name="astream">0</property>
+    <property name="shotcut:hash">b55890c2161d026f9db35b97653e481b</property>
+    <property name="shotcut:caption">Distant_Lands_Adventure_OST.mp3</property>
+    <property name="xml">was here</property>
+  </chain>
+  <playlist id="playlist1">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V2</property>
+    <entry producer="chain0" in="00:00:00.000" out="00:00:15.920"/>
+    <entry producer="chain1" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain2" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain3" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain4" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain5" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain6" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain7" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain8" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain9" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain10" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain11" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain12" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain13" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain14" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain15" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain16" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain17" in="00:00:00.000" out="00:00:16.000"/>
+    <entry producer="chain18" in="00:00:15.960" out="00:00:16.000"/>
+  </playlist>
+  <producer id="producer8" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter0" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer9" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter1" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer10" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter2" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer11" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter3" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer12" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter4" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer13" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter5" in="00:00:00.080" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+      <property name="transition.fix_rotate_x">0</property>
+    </filter>
+  </producer>
+  <producer id="producer14" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter6" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer15" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter7" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer16" in="00:00:00.000" out="00:00:01.160">
+    <property name="length">30</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Log_Cutter/Log_Cutter_%01d.png?begin=1</property>
+    <property name="ttl">15</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="begin">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="shotcut_resource">Movie Tools/Log_Cutter/Log_Cutter_1.png</property>
+    <property name="autolength">1</property>
+    <property name="shotcut_sequence">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">Log_Cutter_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter8" out="00:00:01.160">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">959.736 463.665 877.966 638.953 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer17" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">eea2359338a3954e4394818474339f77</property>
+    <property name="shotcut:caption">Boat_Sideways_1.png</property>
+  </producer>
+  <producer id="producer18" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Sea_Attack.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">decc69a7725b44cd33034b407a74d36a</property>
+    <property name="shotcut:caption">Wizard_Sea_Attack.png</property>
+  </producer>
+  <producer id="producer19" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">eea2359338a3954e4394818474339f77</property>
+  </producer>
+  <producer id="producer20" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">bc52db4ae63de7b6e4fa9f198db4ba26</property>
+    <property name="shotcut:caption">Boat_Sideways_2.png</property>
+  </producer>
+  <producer id="producer21" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4cca9385e383f513a403392e23017dfd</property>
+    <property name="shotcut:caption">Boat_Sideways_3.png</property>
+  </producer>
+  <producer id="producer22" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0b50082910d9475668ea82bd6b4b1d4a</property>
+    <property name="shotcut:caption">Boat_Sideways_4.png</property>
+  </producer>
+  <producer id="producer23" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">eea2359338a3954e4394818474339f77</property>
+    <property name="shotcut:caption">Boat_Sideways_1.png</property>
+  </producer>
+  <producer id="producer24" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">bc52db4ae63de7b6e4fa9f198db4ba26</property>
+  </producer>
+  <producer id="producer25" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4cca9385e383f513a403392e23017dfd</property>
+    <property name="shotcut:caption">Boat_Sideways_3.png</property>
+  </producer>
+  <producer id="producer26" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">eea2359338a3954e4394818474339f77</property>
+    <property name="shotcut:caption">Boat_Sideways_1.png</property>
+  </producer>
+  <producer id="producer27" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">bc52db4ae63de7b6e4fa9f198db4ba26</property>
+    <property name="shotcut:caption">Boat_Sideways_2.png</property>
+  </producer>
+  <producer id="producer28" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4cca9385e383f513a403392e23017dfd</property>
+    <property name="shotcut:caption">Boat_Sideways_3.png</property>
+  </producer>
+  <producer id="producer29" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Sideways/Boat_Sideways_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0b50082910d9475668ea82bd6b4b1d4a</property>
+    <property name="shotcut:caption">Boat_Sideways_4.png</property>
+  </producer>
+  <producer id="producer30" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Forward/Boat_Forward_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">1d658e82e2c54da0faecfdcb6daef3ce</property>
+    <property name="shotcut:caption">Boat_Forward_1.png</property>
+  </producer>
+  <producer id="producer31" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Forward/Boat_Forward_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">76d4af7122dd23cf81314a35d2208a8e</property>
+    <property name="shotcut:caption">Boat_Forward_2.png</property>
+  </producer>
+  <producer id="producer32" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Forward/Boat_Forward_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">9ba4518d6757bc80b51552b587ce3421</property>
+    <property name="shotcut:caption">Boat_Forward_3.png</property>
+  </producer>
+  <producer id="producer33" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Forward/Boat_Forward_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7406ebabe7144f1f913e75e1b76257f8</property>
+    <property name="shotcut:caption">Boat_Forward_4.png</property>
+  </producer>
+  <playlist id="playlist2">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V3</property>
+    <entry producer="producer8" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer9" in="00:00:00.000" out="00:00:01.160"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer10" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer11" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer12" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer13" in="00:00:00.080" out="00:00:01.160"/>
+    <blank length="00:00:00.040"/>
+    <entry producer="producer14" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer15" in="00:00:00.000" out="00:00:01.160"/>
+    <entry producer="producer16" in="00:00:00.000" out="00:00:01.160"/>
+    <blank length="00:00:14.160"/>
+    <entry producer="producer17" in="00:00:00.000" out="00:00:09.560"/>
+    <entry producer="producer18" in="00:00:00.000" out="00:00:09.960"/>
+    <entry producer="producer19" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer20" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer21" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer22" in="00:00:00.000" out="00:00:02.360"/>
+    <blank length="00:00:05.800"/>
+    <entry producer="producer23" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer24" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer25" in="00:00:00.000" out="00:00:04.960"/>
+    <blank length="00:00:05.000"/>
+    <entry producer="producer26" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer27" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer28" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer29" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer30" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer31" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer32" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer33" in="00:00:00.000" out="00:00:34.960"/>
+  </playlist>
+  <producer id="producer34" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Construction/Boat_Construction_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">bf1d4c0e05d764bceaf52794c1280615</property>
+    <property name="shotcut:caption">Boat_Construction_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter9" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">76.6387 214.869 784.73 571.099 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer35" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Construction/Boat_Construction_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">0f39380c0b01117741b8a1a26534d0d3</property>
+    <property name="shotcut:caption">Boat_Construction_2.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter10" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">76.6387 214.869 784.73 571.099 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer36" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Construction/Boat_Construction_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">8fd599c48bf2e178d3e7f6aeb1c91ed1</property>
+    <property name="shotcut:caption">Boat_Construction_3.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter11" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">76.6387 214.869 784.73 571.099 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer37" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Construction/Boat_Construction_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">4eb3eabf4a42ea5b84c8f47f08558b09</property>
+    <property name="shotcut:caption">Boat_Construction_4.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter12" in="00:00:-0.080" out="00:00:03.520">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">76.6387 214.869 784.73 571.099 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" in="00:00:00.000" out="00:00:00.040">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer36" in="00:00:02.320" out="00:00:02.360"/>
+    <track producer="producer37" in="00:00:00.000" out="00:00:00.040"/>
+    <transition id="transition0" out="00:00:00.040">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.040">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer38" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2d38fb3a744f491fd6ac8a3049b2b556</property>
+    <property name="shotcut:caption">Boat_Backward_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter13" in="00:00:-0.120" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">223.654 90.4712 800.583 582.408 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <tractor id="tractor1" in="00:00:00.000" out="00:00:00.080">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer37" in="00:00:03.440" out="00:00:03.520"/>
+    <track producer="producer38" in="00:00:00.000" out="00:00:00.080"/>
+    <transition id="transition2" out="00:00:00.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+      <property name="alpha_over">1</property>
+      <property name="fix_background_alpha">1</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.080">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+    </transition>
+  </tractor>
+  <producer id="producer39" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">910b85b1d0ba8d0d32088528ae02973a</property>
+    <property name="shotcut:caption">Boat_Backward_2.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter14" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">229.308 -33.9267 800.583 582.408 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer40" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">87f06737078a887e7f6af2fe5ffd884f</property>
+    <property name="shotcut:caption">Boat_Backward_3.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter15" out="00:00:02.320">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">291.507 -90.4712 800.583 582.408 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer41" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">06788657f4d62e62a4df6273c4ad63ae</property>
+    <property name="shotcut:caption">Boat_Backward_4.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter16" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">376.324 -214.869 800.583 582.408 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer42" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Shark/Shark_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">304e3304f6ed1ed55965a6163fcd1b83</property>
+    <property name="shotcut:caption">Shark_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter17" out="00:00:02.320">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">218 0 1173.67 853.822 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer43" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Shark/Shark_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">13fc53b496f079ad7a62fd675cd212b8</property>
+    <property name="shotcut:caption">Shark_2.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter18" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">325.435 -5.65445 1173.67 853.822 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer44" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Shark/Shark_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">b518906535e21134f57502324444bc8d</property>
+    <property name="shotcut:caption">Shark_3.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter19" out="00:00:02.320">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">370.671 -16.9634 1173.67 853.822 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer45" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Shark/Shark_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">fc41c862f0f4d514fad90200cd780468</property>
+    <property name="shotcut:caption">Shark_4.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter20" out="00:00:02.360">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">365.016 2.6178e-07 1173.67 853.822 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer46" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5fa5a2afdc615afcc8b59440f4f63497</property>
+    <property name="shotcut:caption">Goblin_1.png</property>
+  </producer>
+  <producer id="producer47" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a4b6004a25f025f6be6d5be45466258d</property>
+    <property name="shotcut:caption">Goblin_2.png</property>
+  </producer>
+  <producer id="producer48" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f86e13e8007054e7e36d63577ba45551</property>
+    <property name="shotcut:caption">Goblin_3.png</property>
+  </producer>
+  <producer id="producer49" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a5c67e840f9e131d160423eae84cf9af</property>
+    <property name="shotcut:caption">Goblin_4.png</property>
+  </producer>
+  <producer id="producer50" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f85fb7842cf9f57f48117f655e0f20bf</property>
+    <property name="shotcut:caption">Wizard_Attack_1.png</property>
+  </producer>
+  <producer id="producer51" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e8e7e03a86aed50cdb457cc869115a73</property>
+    <property name="shotcut:caption">Wizard_Attack_2.png</property>
+  </producer>
+  <producer id="producer52" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">2d38fb3a744f491fd6ac8a3049b2b556</property>
+    <property name="shotcut:caption">Boat_Backward_1.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter21" out="00:00:04.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">144.875 281.25 935.593 680.625 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer53" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">910b85b1d0ba8d0d32088528ae02973a</property>
+    <property name="shotcut:caption">Boat_Backward_2.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter22" out="00:00:04.920">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">184.25 157.5 935.593 680.625 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer54" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">87f06737078a887e7f6af2fe5ffd884f</property>
+    <property name="shotcut:caption">Boat_Backward_3.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter23" out="00:00:04.960">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">229.25 84.375 935.593 680.625 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer55" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Backward/Boat_Backward_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">06788657f4d62e62a4df6273c4ad63ae</property>
+    <property name="shotcut:caption">Boat_Backward_4.png</property>
+    <property name="meta.shotcut.vui">1</property>
+    <filter id="filter24" out="00:00:04.920">
+      <property name="background">color:#00000000</property>
+      <property name="mlt_service">affine</property>
+      <property name="shotcut:filter">affineSizePosition</property>
+      <property name="transition.fill">1</property>
+      <property name="transition.distort">0</property>
+      <property name="transition.rect">212.375 45 935.593 680.625 1</property>
+      <property name="transition.valign">middle</property>
+      <property name="transition.halign">center</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+      <property name="transition.threads">0</property>
+    </filter>
+  </producer>
+  <producer id="producer56" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5fa5a2afdc615afcc8b59440f4f63497</property>
+    <property name="shotcut:caption">Goblin_1.png</property>
+  </producer>
+  <producer id="producer57" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a4b6004a25f025f6be6d5be45466258d</property>
+    <property name="shotcut:caption">Goblin_2.png</property>
+  </producer>
+  <producer id="producer58" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f86e13e8007054e7e36d63577ba45551</property>
+    <property name="shotcut:caption">Goblin_3.png</property>
+  </producer>
+  <producer id="producer59" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a5c67e840f9e131d160423eae84cf9af</property>
+    <property name="shotcut:caption">Goblin_4.png</property>
+  </producer>
+  <producer id="producer60" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f85fb7842cf9f57f48117f655e0f20bf</property>
+    <property name="shotcut:caption">Wizard_Attack_1.png</property>
+  </producer>
+  <producer id="producer61" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e8e7e03a86aed50cdb457cc869115a73</property>
+    <property name="shotcut:caption">Wizard_Attack_2.png</property>
+  </producer>
+  <producer id="producer62" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5fa5a2afdc615afcc8b59440f4f63497</property>
+    <property name="shotcut:caption">Goblin_1.png</property>
+  </producer>
+  <producer id="producer63" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a4b6004a25f025f6be6d5be45466258d</property>
+    <property name="shotcut:caption">Goblin_2.png</property>
+  </producer>
+  <producer id="producer64" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f86e13e8007054e7e36d63577ba45551</property>
+    <property name="shotcut:caption">Goblin_3.png</property>
+  </producer>
+  <producer id="producer65" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a5c67e840f9e131d160423eae84cf9af</property>
+    <property name="shotcut:caption">Goblin_4.png</property>
+  </producer>
+  <producer id="producer66" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f85fb7842cf9f57f48117f655e0f20bf</property>
+    <property name="shotcut:caption">Wizard_Attack_1.png</property>
+  </producer>
+  <producer id="producer67" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e8e7e03a86aed50cdb457cc869115a73</property>
+    <property name="shotcut:caption">Wizard_Attack_2.png</property>
+  </producer>
+  <producer id="producer68" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">5fa5a2afdc615afcc8b59440f4f63497</property>
+    <property name="shotcut:caption">Goblin_1.png</property>
+  </producer>
+  <producer id="producer69" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a4b6004a25f025f6be6d5be45466258d</property>
+    <property name="shotcut:caption">Goblin_2.png</property>
+  </producer>
+  <producer id="producer70" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_3.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f86e13e8007054e7e36d63577ba45551</property>
+    <property name="shotcut:caption">Goblin_3.png</property>
+  </producer>
+  <producer id="producer71" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Goblin/Goblin_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">a5c67e840f9e131d160423eae84cf9af</property>
+    <property name="shotcut:caption">Goblin_4.png</property>
+  </producer>
+  <producer id="producer72" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_1.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">f85fb7842cf9f57f48117f655e0f20bf</property>
+    <property name="shotcut:caption">Wizard_Attack_1.png</property>
+  </producer>
+  <producer id="producer73" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e8e7e03a86aed50cdb457cc869115a73</property>
+    <property name="shotcut:caption">Wizard_Attack_2.png</property>
+  </producer>
+  <producer id="producer74" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Wizard_Attack/Wizard_Attack_2.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2552</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">e8e7e03a86aed50cdb457cc869115a73</property>
+    <property name="shotcut:caption">Wizard_Attack_2.png</property>
+  </producer>
+  <producer id="producer75" in="00:00:00.000" out="03:59:59.960">
+    <property name="length">04:00:00.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">Movie Tools/Boat_Forward/Boat_Forward_4.png</property>
+    <property name="ttl">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">1</property>
+    <property name="meta.media.progressive">1</property>
+    <property name="meta.media.width">3508</property>
+    <property name="meta.media.height">2553</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:hash">7406ebabe7144f1f913e75e1b76257f8</property>
+    <property name="shotcut:caption">Boat_Forward_4.png</property>
+  </producer>
+  <playlist id="playlist3">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V4</property>
+    <entry producer="producer34" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer35" in="00:00:00.000" out="00:00:02.360"/>
+    <blank length="00:00:00.080"/>
+    <entry producer="producer36" in="00:00:00.000" out="00:00:02.280"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.040"/>
+    <entry producer="producer37" in="00:00:00.000" out="00:00:03.400"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.080"/>
+    <entry producer="producer38" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer39" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer40" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer41" in="00:00:00.000" out="00:00:02.360"/>
+    <blank length="00:00:04.560"/>
+    <entry producer="producer42" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer43" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer44" in="00:00:00.000" out="00:00:02.360"/>
+    <entry producer="producer45" in="00:00:00.000" out="00:00:02.360"/>
+    <blank length="00:01:25.400"/>
+    <entry producer="producer46" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer47" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer48" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer49" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer50" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer51" in="00:00:00.000" out="00:00:04.960"/>
+    <blank length="00:00:05.000"/>
+    <entry producer="producer52" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer53" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer54" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer55" in="00:00:00.000" out="00:00:04.840"/>
+    <entry producer="producer56" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer57" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer58" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer59" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer60" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer61" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer62" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer63" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer64" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer65" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer66" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer67" in="00:00:00.000" out="00:00:04.880"/>
+    <entry producer="producer68" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer69" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer70" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer71" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer72" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer73" in="00:00:00.000" out="00:00:04.960"/>
+    <entry producer="producer74" in="00:00:04.920" out="00:00:04.960"/>
+    <blank length="00:00:00.120"/>
+    <entry producer="producer75" in="00:00:00.000" out="00:00:34.960"/>
+  </playlist>
+  <tractor id="tractor2" title="Shotcut version 24.04.01" in="00:00:00.000" out="00:04:59.960">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <property name="shotcut:skipConvert">0</property>
+    <property name="shotcut:scaleFactor">0.548372</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1"/>
+    <track producer="playlist2"/>
+    <track producer="playlist3"/>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">1</property>
+      <property name="b_track">2</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition8">
+      <property name="a_track">1</property>
+      <property name="b_track">3</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">1</property>
+      <property name="b_track">4</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+    </transition>
+    <transition id="transition11">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
